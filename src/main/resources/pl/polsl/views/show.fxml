@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controllers.ShowController">
+   <children>
+      <Button fx:id="button1" layoutX="300.0" layoutY="373.0" mnemonicParsing="false" onAction="#end" prefHeight="29.0" prefWidth="300.0" text="Koniec" />
+      <TableView fx:id="table" layoutY="-1.0" prefHeight="374.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="107.0" text="Nazwa posilku" />
+            <TableColumn fx:id="grams" prefWidth="79.0" text="Gramatura" />
+            <TableColumn fx:id="kcals" prefWidth="83.0" text="Kalorie" />
+            <TableColumn fx:id="salt" prefWidth="70.0" text="Sol" />
+            <TableColumn fx:id="sugar" prefWidth="71.0" text="Cukier" />
+            <TableColumn fx:id="protein" text="Bialko" />
+            <TableColumn fx:id="fats" prefWidth="109.0" text="Tluszcze" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

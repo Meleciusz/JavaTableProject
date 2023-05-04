@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.AmbientLight?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.controllers.ProductsController">
+   <children>
+      <Label fx:id="label1" layoutX="169.0" layoutY="27.0" text="Wpisz dania" />
+      <TextField fx:id="text1" alignment="CENTER" layoutX="127.0" layoutY="62.0" promptText="Sniadanie" />
+      <Button fx:id="button" layoutX="534.0" layoutY="175.0" mnemonicParsing="false" onAction="#products" text="Koniec" />
+      <Label fx:id="label2" alignment="CENTER" layoutX="362.0" layoutY="27.0" text="Podaj gramature (w g)" />
+      <Slider fx:id="slider1" layoutX="351.0" layoutY="55.0" max="1000.0" showTickLabels="true" showTickMarks="true" />
+      <TextField fx:id="text2" alignment="CENTER" layoutX="127.0" layoutY="119.0" promptText="II sniadanie" />
+      <TextField fx:id="text3" alignment="CENTER" layoutX="127.0" layoutY="188.0" promptText="Obiad" />
+      <TextField fx:id="text4" alignment="CENTER" layoutX="127.0" layoutY="255.0" promptText="Deser" />
+      <TextField fx:id="text5" alignment="CENTER" layoutX="127.0" layoutY="320.0" promptText="Kolacja" />
+      <Slider fx:id="slider2" layoutX="351.0" layoutY="113.0" max="1000.0" showTickLabels="true" showTickMarks="true" />
+      <Slider fx:id="slider3" layoutX="351.0" layoutY="181.0" max="1000.0" showTickLabels="true" showTickMarks="true" />
+      <Slider fx:id="slider4" layoutX="351.0" layoutY="249.0" max="1000.0" showTickLabels="true" showTickMarks="true" />
+      <Slider fx:id="slider5" layoutX="351.0" layoutY="314.0" max="1000.0" showTickLabels="true" showTickMarks="true" />
+      <AmbientLight color="CHARTREUSE" layoutX="14.0" layoutY="174.0" lightOn="true" />
+   </children>
+</AnchorPane>
